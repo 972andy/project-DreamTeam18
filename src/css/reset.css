@@ -9,9 +9,6 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
 
 ul {
   margin: 0;
@@ -20,16 +17,23 @@ ul {
 }
 
 a {
-  color: currentColor;
+  color: inherit;
   text-decoration: none;
 }
 
 button {
   cursor: pointer;
+  display: block;
 }
 
 img {
   display: block;
-  max-width: 100%;
-  height: auto;
 }
+
+body {
+  font-family: "Manrope", sans-serif;
+  color: rgba(252, 249, 249, 0.4);
+  background: #1c2225;
+}
+
+
