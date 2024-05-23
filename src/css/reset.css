@@ -36,4 +36,9 @@ body {
   background: #1c2225;
 }
 
+/* default-container-styles */
 
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
