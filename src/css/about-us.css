@@ -1,4 +1,5 @@
 /* ===About-Us-Section-Styles=== */
+
 /* Reset styles */
 *,
 *::before,
@@ -41,4 +42,34 @@ button {
 img {
   display: block;
 }
-/* */
+
+/*About-Us-Section-Styles*/
+.about-us-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.about-us-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us-title {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 1.45455;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+  margin-bottom: 20px;
+}
+
+.about-us-text {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.04em;
+  color: rgba(252, 249, 249, 0.4);
+  margin-top: 20px;
+}
