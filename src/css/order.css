@@ -1,1 +1,80 @@
 /* ===Order-Section-Styles=== */
+.your-order-background-image {
+  background-image: url(/img/order-1-mobile-img.jpg);
+  max-width: 375px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 768px) and (min-resolution: 192dpi) {
+  .your-order-background-image {
+    background-image: url(/img/order-1-mobile-img@2x.jpg);
+  }
+}
+
+.your-order-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.375;
+  letter-spacing: -0.03em;
+  color: #fcf9f9;
+  margin-bottom: 40px;
+}
+
+.your-order-title-part {
+  color: #ecd979;
+}
+
+.your-order-field {
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 14px 16px;
+  width: 335px;
+  height: 47px;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: rgba(252, 249, 249, 0.5);
+  margin-bottom: 20px;
+}
+
+.your-order-field:hover,
+.your-order-field:focus {
+  border: 1px solid rgba(252, 249, 249, 0.6);
+}
+
+.your-order-textarea {
+  height: 196px;
+  margin-bottom: 40px;
+  resize: none;
+}
+
+.your-order-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 14px 36px;
+  width: 145px;
+  height: 49px;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #fcf9f9;
+  margin: 0 auto;
+}
+
+.your-order-btn:hover,
+.your-order-btn:focus {
+  border: 1px solid #ecd979;
+}
