@@ -55,6 +55,7 @@ img {
 .about-us-left {
   display: flex;
   flex-direction: column;
+  gap: 20px;
 }
 
 .about-us-title {
@@ -71,5 +72,4 @@ img {
   font-size: 16px;
   letter-spacing: -0.04em;
   color: rgba(252, 249, 249, 0.4);
-  margin-top: 20px;
 }
