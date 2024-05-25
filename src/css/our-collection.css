@@ -1,9 +1,12 @@
 /* ===Our-Collection-Section-Styles=== */
 .section-collection {
     padding: 80px 0;
+}
+.ornament {
     background-repeat: no-repeat;
-    background-size: 199px;
-    background-image: url(../img/elements.png);
+    background-size: 199px 177px;
+    background-position: top 300px left -125px;
+    background-image: url(/img/elements-gold.png);
 }
 .collection-title {
     font-weight: 500;
@@ -56,8 +59,8 @@
 }
 
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
-    .section-collection {
-        background-image: url(../img/elements@2x.png);
+    .ornament {
+        background-image: url(/img/elements-gold@2x.png);
     }
 }
 
@@ -80,9 +83,12 @@
         align-items: center;
         justify-content: center;
     }
-   
     .collection-list-item {
         flex-basis: calc((100% - 20)/2);
+    }
+    .ornament {
+        background-size: 338px 300px;
+        background-position: top 185px left -218px; 
     }
 }
 
@@ -93,6 +99,9 @@
     }
     .collection-list-item {
         flex-basis: calc((100% - 40)/3);
+    }
+    .ornament {
+        background-position: top 190px left -170px; 
     }
 }
 
