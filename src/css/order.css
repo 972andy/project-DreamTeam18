@@ -124,6 +124,20 @@
     border-radius: 4px;
     margin-bottom: 179px;
   }
+
+  .your-order-container {
+    position: relative;
+  }
+
+  .ornament {
+    background-image: url(/img/ornament-gray-order.png);
+    position: absolute;
+    z-index: -1;
+    top: 71%;
+    left: -220px;
+    width: 544px;
+    height: 484px;
+  }
 }
 
 @media screen and (max-width: 768px) and (min-resolution: 192dpi) {
@@ -164,6 +178,11 @@
     display: flex;
     flex-direction: row-reverse;
   }
+
+  .ornament {
+    top: 6%;
+    left: -254px;
+  }
 }
 
 @media screen and (max-width: 1280px) and (min-resolution: 192dpi) {
@@ -186,6 +205,11 @@
   .your-order-img {
     max-width: 524px;
     height: 521px;
+  }
+
+  .ornament {
+    top: 20%;
+    left: -214px;
   }
 }
 
