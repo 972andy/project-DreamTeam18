@@ -36,6 +36,7 @@
   border-radius: 15px;
   padding: 14px 16px;
   width: 335px;
+  max-width: 100%;
   height: 47px;
   font-weight: 400;
   font-size: 14px;
@@ -47,6 +48,7 @@
 .your-order-field:hover,
 .your-order-field:focus {
   border: 1px solid rgba(252, 249, 249, 0.6);
+  color: #fcf9f9;
 }
 
 .your-order-textarea {
@@ -72,9 +74,123 @@
   text-transform: uppercase;
   color: #fcf9f9;
   margin: 0 auto;
+  margin-bottom: 80px;
 }
 
 .your-order-btn:hover,
 .your-order-btn:focus {
   border: 1px solid #ecd979;
+}
+
+.your-order-img {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .your-order-background-image {
+    background-image: url(/img/order-1-tablet-img.jpg);
+    max-width: 768px;
+    height: 776px;
+    margin-bottom: 100px;
+  }
+
+  .your-order-title {
+    font-size: 44px;
+    line-height: 1.318;
+  }
+
+  .your-order-field {
+    width: 508px;
+    height: 50px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .your-order-textarea {
+    height: 336px;
+    margin-bottom: 40px;
+  }
+
+  .your-order-btn {
+    width: 168px;
+    height: 50px;
+    font-size: 16px;
+    margin-left: 0;
+    margin-bottom: 100px;
+  }
+
+  .your-order-img {
+    display: block;
+    border-radius: 4px;
+    margin-bottom: 179px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-resolution: 192dpi) {
+  .your-order-background-image {
+    background-image: url(/img/order-1-tablet-img@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .your-order-background-image {
+    background-image: url(/img/order-1-desktop-img.jpg);
+    max-width: 1280px;
+    height: 776px;
+    margin-bottom: 150px;
+  }
+
+  .form-your-order {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .your-order-textarea {
+    height: 196px;
+  }
+
+  .your-order-btn {
+    margin-bottom: 150px;
+  }
+
+  .your-order-img {
+    width: 588px;
+    max-height: 521px;
+    margin-right: 50px;
+    margin-bottom: 0;
+  }
+
+  .page-your-order {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-resolution: 192dpi) {
+  .your-order-background-image {
+    background-image: url(/img/order-1-desktop-img@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .your-order-background-image {
+    background-image: url(/img/order-1-desktop-1440px-img.jpg);
+    max-width: 1440px;
+  }
+
+  .your-order-container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .your-order-img {
+    max-width: 524px;
+    height: 521px;
+  }
+}
+
+@media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+  .your-order-background-image {
+    background-image: url(/img/order-1-desktop-1440px-img@2x.jpg);
+  }
 }
