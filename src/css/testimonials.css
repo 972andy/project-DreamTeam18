@@ -8,7 +8,7 @@
   line-height: 1.38;
   letter-spacing: -0.03em;
   color: #fcf9f9;
-  margin-bottom: 72px;
+  margin-bottom: 64px;
 }
 .testimonials-name {
   font-weight: 600;
@@ -74,9 +74,6 @@
   }
   .testimonials-list {
     gap: 26px;
-  }
-  .testimonials-title {
-    margin-bottom: 64px;
   }
   .testimonials-item {
     width: calc((100% - 26px) / 3);
