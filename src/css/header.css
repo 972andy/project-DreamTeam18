@@ -113,6 +113,9 @@
    
    .main-logo {
     margin-right: 60px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
   }
    .main-nav {
     padding-top: 20px;
@@ -147,7 +150,7 @@
    }
    .address-link {
     display: flex;
-    
+    font-style: normal;
     text-decoration: none;
     font-weight: 400;
   font-size: 14px;
