@@ -1,1 +1,190 @@
-/* ===Header-Styles=== */
+/* Початок хедера */
+
+
+  .main-social-icon:focus{
+    border: 1px solid #ecd979;
+    background-color: transparent;
+  }
+  .main-social-icon:hover{
+    border: 1px solid #ecd979;
+    background-color: transparent;
+  }
+  
+  .header-nav-item:hover{
+    color: #ecd979;
+  }
+  .header-nav-item:focus{
+    color: #ecd979;
+  }
+  .fone-nuber:hover {
+    border: 1px solid #ecd979;
+  }
+  .fone-nuber:focus{
+    border: 1px solid #ecd979;
+  }
+  
+  .main-nav {
+    background-color: transparent;
+    padding-top: 20px;
+    margin-bottom: 84px;
+    
+  }
+
+
+  .main-logo {
+   
+    margin-right: 87px;
+    display: flex;
+    align-items: center;
+    
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 374px) {
+    
+    .main-nav {
+      width: 375px;
+      margin: 0 auto;
+      padding: 0 20px 0 20px;
+      padding-top: 20px;
+    margin-bottom: 84px;
+    }
+
+  }
+  
+    
+  .header-navigation-lits {
+    display: none;
+  }
+  .fone-nuber {
+    display: none;
+  }
+  
+  .heder-social-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 12px;
+  }
+  
+  .main-social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 8px;
+    background: rgba(252, 249, 249, 0.1);
+  
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    border-radius: 15px;
+    padding: 8px;
+    width: 44px;
+    height: 44px;
+  }
+  .hed-icon-social {
+    fill: #fcf9f9;
+  }
+  .main-nav {
+    display: flex;
+  }
+  .heder-social-list {
+    display: flex;
+    margin-right: 12px;
+  }
+  .icon-heder-menu {
+    fill: #ecd979;
+  }
+
+ 
+  .heder-button-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+   
+  }
+  
+  /* кінець хедера */
+  
+  /* Початок хедера tablet 768px */
+  
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+    
+     .header-navigation-lits {
+      display: none;
+    }
+    .fone-nuber {
+      display: none;
+    }
+    .main-nav {
+      padding-top: 20px;
+      margin-bottom: 100px;
+    }
+    .main-logo {
+      margin-right: 440px;
+    }
+    .heder-social-list {
+      margin-right: 20px;
+    }
+  
+  }
+  
+  
+  @media screen and (min-width: 1280px) {
+   .heder-button-menu {
+    display: none;
+   }
+   
+   .main-logo {
+    margin-right: 60px;
+   
+  }
+   .main-nav {
+    padding-top: 20px;
+    margin-bottom: 100px;
+   }
+   .header-navigation-lits {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 25px;
+    margin-right: 229px;
+   }
+   .header-nav-item {
+  
+    font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+  text-transform: uppercase;
+  color: #fcf9f9;
+  
+   }
+   .fone-nuber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  margin-right: 20px;
+  width: 193px;
+  height: 48px;
+   }
+   .address-link {
+    display: flex;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+  text-transform: uppercase;
+  color: #fcf9f9;
+   }
+  
+   .heder-social-list {
+    margin-right: 0;
+   }
+  }
+  
