@@ -1,1 +1,40 @@
 /* ===Footer-Styles=== */
+
+.footer{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-list{
+    
+    
+}
+
+.footer-item{
+    font-size: 14px;
+    line-height: 1.28571;
+    text-transform: uppercase;
+    color: #fcf9f9;
+    
+}
+
+.footer-item-text {
+    display: flex;
+    gap: 25px;
+    padding-top: 40px;
+    padding-left: 50px;
+    
+}
+
+.footer-title{
+    font-size: 64px;
+    line-height: 1.15625;
+    letter-spacing: -0.03em;
+    color: #fcf9f9;
+    margin-left: 50px;
+    margin-top: 117px;
+}
+
+.acsent{
+color: #ecd979;
+}
