@@ -134,10 +134,14 @@
         width: 518px;
     }
 
+    .hero-button-order {
+        margin-left: 27%;
+    }
+
     .logo-handmade-div {
         top: 0px;
         right: 50px;
-        margin-top: 29px;
+        margin-top: 14px;
     }
 }
 
@@ -148,9 +152,13 @@
         line-height: 1.15625;
     }
 
+    .hero-button-order {
+        margin-left: 22%;
+    }
+
     .logo-handmade-div {
         top: 0px;
         right: 100px;
-        margin-top: 100px;
+        margin-top: 66px;
     }
 }
