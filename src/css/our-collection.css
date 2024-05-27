@@ -1,7 +1,4 @@
 /* ===Our-Collection-Section-Styles=== */
-.section-collection {
-    padding: 80px 0;
-}
 .ornament {
     background-repeat: no-repeat;
     background-size: 199px 177px;
@@ -65,9 +62,6 @@
 }
 
 @media screen and (min-width: 768px){
-    .section-collection {
-        padding: 100px 0;
-    }
     .collection-title {
         font-size: 44px;
         line-height: 1.45;
@@ -94,9 +88,6 @@
 
 
 @media screen and (min-width: 1280px){
-    .section-collection {
-        padding: 150px 0;
-    }
     .collection-list-item {
         flex-basis: calc((100% - 40)/3);
     }
