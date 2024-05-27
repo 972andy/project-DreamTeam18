@@ -1,6 +1,6 @@
 /* Початок хедера */
 
-  
+
   .main-social-icon:focus{
     border: 1px solid #ecd979;
     background-color: transparent;
@@ -24,14 +24,34 @@
   }
   
   .main-nav {
-    background-color: #1c2225;
+    background-color: transparent;
     padding-top: 20px;
     margin-bottom: 84px;
     
   }
+
+
   .main-logo {
+   
     margin-right: 87px;
+    display: flex;
+    align-items: center;
+    
   }
+
+  @media screen and (min-width: 320px) and (max-width: 374px) {
+    
+    .main-nav {
+      width: 375px;
+      margin: 0 auto;
+      padding: 0 20px 0 20px;
+      padding-top: 20px;
+    margin-bottom: 84px;
+    }
+
+  }
+  
+    
   .header-navigation-lits {
     display: none;
   }
@@ -74,10 +94,16 @@
   .icon-heder-menu {
     fill: #ecd979;
   }
-  
+
+ 
   .heder-button-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
     background-color: transparent;
     border: none;
+   
   }
   
   /* кінець хедера */
@@ -113,9 +139,7 @@
    
    .main-logo {
     margin-right: 60px;
-    display: flex;
-    text-align: center;
-    flex-wrap: wrap;
+   
   }
    .main-nav {
     padding-top: 20px;
