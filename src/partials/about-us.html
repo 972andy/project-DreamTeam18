@@ -1,15 +1,15 @@
 <!-- ===Vyshyvanka-Vibes-About-Us-Section=== -->
-<section class="about-us">
-  <div class="about-us-content container">
+<section class="about-us container background-img-about-us-section">
+  <div class="about-us-content">
     <div class="about-us-left">
       <h2 class="about-us-title">About Us</h2>
-      <p class="about-us-text">
+      <p class="about-us-paragraph">
         The store "Vyshyvanka Vibes" is a place where traditional Ukrainian
         vyshyvanka comes to life with new zest and style. Our store offers a
         wide selection of high-quality and authentic embroidery, which combines
         the elegance of traditional needlework and modern design.
       </p>
-      <p>
+      <p class="about-us-text">
         In "Vyshyvanka Vibes" you will find various models of embroidery, from
         classic to modern, corresponding to the latest fashion trends. Our
         embroidery is made using natural fabrics and is embroidered by highly
@@ -20,16 +20,37 @@
         unique history and symbolism, which gives it a special meaning.
       </p>
     </div>
-    <img
-      class="about-us-foto"
-      src="/img/about-us-desktop-img.jpg"
-      srcset="
-        /img/about-us-desktop-img.jpg    1x,
-        /img/about-us-desktop-img@2x.jpg 2x
-      "
-      alt="Vyshyvanka"
-      width="594"
-      height="545"
-    />
+    <picture>
+      <source
+        srcset="
+          /img/about-us-desktop-1440px-img.jpg    1x,
+          /img/about-us-desktop-1440px-img@2x.jpg 2x
+        "
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="
+          /img/about-us-desktop-img.jpg    1x,
+          /img/about-us-desktop-img@2x.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          /img/abous-us-tablet-img.jpg    1x,
+          /img/abous-us-tablet-img@2x.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="/img/about-us-mobile-img@2x.jpg 2x"
+        media="(max-width: 767px)"
+      />
+      <img
+        class="about-us-foto"
+        src="/img/about-us-mobile-img.jpg"
+        alt="About as vyshyvanka image."
+      />
+    </picture>
   </div>
 </section>
