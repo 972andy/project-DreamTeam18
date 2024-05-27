@@ -16,7 +16,6 @@
   height: 812px;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   min-width: 274px;
   max-width: 274px;
   gap: 186px;
@@ -30,7 +29,7 @@
 .modal-windows-container {
   display: flex;
   align-items: center;
-  gap: 40px;
+  justify-content: space-between;
 }
 
 .modal-windows-btn {
@@ -39,6 +38,10 @@
   padding: 0;
   border: none;
   background-color: transparent;
+}
+
+.modal-window-icon-svg{
+  stroke: #1c2225;
 }
 
 .contact {
@@ -63,10 +66,6 @@
   gap: 20px;
 }
 
-.navigation {
-  margin-bottom: 222px;
-}
-
 .menu-link {
   font-weight: 400;
   font-size: 14px;
@@ -89,22 +88,23 @@
     max-width: 380px;
   }
 
-  .modal-windows-container {
-    gap: 79px;
+  .modal-windows-btn{
+    width: 44px;
+    height: 44px;
   }
 
-  .modal-windows-btn {
+  .modal-window-icon-svg {
     width: 44px;
     height: 44px;
   }
 
   .contact {
-    padding: 14px 26px;
+    padding: 14px 27px;
   }
 
   .modal-windows-link {
     font-size: 14px;
-    line-height: 1.42857;
+    line-height: 1.4;
   }
 
   .menu-list {
