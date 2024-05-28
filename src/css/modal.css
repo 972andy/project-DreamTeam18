@@ -15,7 +15,7 @@
 }
 
 .modal-windows-menu {
-  height: 130%;
+  height: 812px;
   display: flex;
   flex-direction: column;
   min-width: 274px;
@@ -88,7 +88,7 @@
   .modal-windows-menu {
     background-image: url('/img/Tablet-images.png');
     max-width: 380px;
-    height: 170%;
+    height: 1024px;
   }
 
   .modal-windows-btn{
