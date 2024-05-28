@@ -1,0 +1,121 @@
+.modal-windows {
+  position: fixed;
+  z-index: 99999999;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  transform: translateX(100%);
+  transition: transform 250ms linear;
+}
+
+.modal-windows.is-open {
+  transform: translateX(0%);
+}
+
+.modal-windows-menu {
+  height: 812px;
+  display: flex;
+  flex-direction: column;
+  min-width: 274px;
+  max-width: 274px;
+  gap: 186px;
+  margin-right: 0;
+  padding-top: 20px;
+  background-color: #ecd979;
+  background-image: url('/img/Mobile-images.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.modal-windows-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-windows-btn {
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.modal-window-icon-svg{
+  stroke: #1c2225;
+}
+
+.contact {
+  font-style: normal;
+  padding: 12px 20px;
+  border: 1px solid rgba(28, 34, 37, 0.1);
+  border-radius: 15px;
+}
+
+.modal-windows-link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  color: #1c2225;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.menu-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #1c2225;
+}
+
+@media screen and (min-resolution: 192dpi) and (max-width: 767px) {
+  .modal-windows-menu {
+    background-image: url('/img/Mobile-images@2x.png');
+    background-size: 274px 251px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .modal-windows-menu {
+    background-image: url('/img/Tablet-images.png');
+    height: 1024px;
+    max-width: 380px;
+  }
+
+  .modal-windows-btn{
+    width: 44px;
+    height: 44px;
+  }
+
+  .modal-window-icon-svg {
+    width: 44px;
+    height: 44px;
+  }
+
+  .contact {
+    padding: 14px 27px;
+  }
+
+  .modal-windows-link {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .menu-list {
+    gap: 25px;
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px) {
+  .modal-windows-menu {
+    background-image: url('/img/Tablet-images@2x.png');
+    background-size: 380px 390px;
+  }
+}
