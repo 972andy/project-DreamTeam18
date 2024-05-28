@@ -11,8 +11,8 @@
 }
 
 .modal-windows.is-open {
-  transform: translateX(0%);
-  backdrop-filter: blur(4px);
+  transform: translateX(0);
+  /* backdrop-filter: blur(4px); */
 }
 
 .modal-windows-menu {
