@@ -138,6 +138,11 @@
         margin-left: 27%;
     }
 
+    .hero-button-order:hover,
+    .hero-button-order:focus {
+        border: 1px solid #ECD979;
+    }
+
     .logo-handmade-div {
         top: 0px;
         right: 50px;
