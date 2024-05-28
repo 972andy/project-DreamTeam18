@@ -6,11 +6,12 @@
 }
 
 .footer-list{
-    
+    display: flex;
     
 }
 
 .footer-item{
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.28571;
     text-transform: uppercase;
@@ -19,7 +20,7 @@
 }
 
 .footer-item-text {
-    display: flex;
+    
     gap: 25px;
     padding-top: 40px;
     padding-left: 50px;
@@ -27,14 +28,29 @@
 }
 
 .footer-title{
+    font-weight: 400;
     font-size: 64px;
     line-height: 1.15625;
     letter-spacing: -0.03em;
     color: #fcf9f9;
     margin-left: 50px;
     margin-top: 117px;
+    width: 754px;
+    
 }
 
 .acsent{
 color: #ecd979;
+}
+
+.footer-icon{
+    width: 595px;
+    height: 528px;
+    
+}
+
+.footer-icon-icon{
+    display: flex;
+    justify-content: right;
+    
 }
