@@ -12,7 +12,7 @@
 
 .modal-windows.is-open {
   transform: translateX(0);
-  /* backdrop-filter: blur(4px); */
+  backdrop-filter: blur(4px);
 }
 
 .modal-windows-menu {
@@ -25,7 +25,7 @@
   margin-right: 0;
   padding-top: 20px;
   background-color: #ecd979;
-  background-image: url('/img/Mobile-images.png');
+  background-image: url('/img/mobile-images.png');
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -80,14 +80,14 @@
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px) {
   .modal-windows-menu {
-    background-image: url('/img/Mobile-images@2x.png');
+    background-image: url('/img/mobile-images@2x.png');
     background-size: 274px 251px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .modal-windows-menu {
-    background-image: url('/img/Tablet-images.png');
+    background-image: url('/img/tablet-images.png');
     max-width: 380px;
   }
 
@@ -117,7 +117,7 @@
 
 @media screen and (min-resolution: 192dpi) and (min-width: 768px) {
   .modal-windows-menu {
-    background-image: url('/img/Tablet-images@2x.png');
+    background-image: url('/img/tablet-images@2x.png');
     background-size: 380px 390px;
   }
 }
