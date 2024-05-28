@@ -48,6 +48,15 @@
     gap: 8px;
     height: 36px; 
 }
+.ornament-collection {
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: 199px 177px;
+    background-position: top 297px left -127px;
+    background-image: url(/img/elements-gold.png);
+}
+
 
 @media screen and (min-width: 320px) and (max-width: 375px) {
     img {
@@ -95,9 +104,11 @@
     }
     .ornament-collection {
         background-size: 338px 300px;
-        background-position: top 185px left -218px; 
+        background-position: top 185px left -225px; 
     }
 }
+
+
 
 @media screen and (min-width: 1280px){
     .section-collection{
