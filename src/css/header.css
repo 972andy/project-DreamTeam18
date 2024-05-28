@@ -41,12 +41,8 @@
 
   @media screen and (min-width: 320px) and (max-width: 374px) {
     
-    .main-nav {
-      width: 375px;
-      margin: 0 auto;
-      padding: 0 20px 0 20px;
-      padding-top: 20px;
-    margin-bottom: 84px;
+    .main-logo {
+      margin-right: auto;
     }
 
   }
@@ -142,6 +138,7 @@
    
   }
    .main-nav {
+    justify-content: space-between;
     padding-top: 20px;
     margin-bottom: 100px;
    }
@@ -187,4 +184,8 @@
     margin-right: 0;
    }
   }
+  
+ 
+  
+  
   
