@@ -67,17 +67,17 @@
 
     }
 
-    #item2 {
+        .item-two {
         order: 3;
         /* Переміщуємо на третє місце */
     }
 
-    #item3 {
+        .item-three {
         order: 2;
         /* Переміщуємо на друге місце */
     }
 
-    #item4 {
+        .item-four {
         order: 4;
     }
 
