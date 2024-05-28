@@ -104,7 +104,7 @@
   }
 }
 
-@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+@media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .background-img-about-us-section {
     background-image: url(/img/about-us-background-desktop-img@2x.png);
   }

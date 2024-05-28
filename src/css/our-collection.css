@@ -1,8 +1,5 @@
 
 /* ===Our-Collection-Section-Styles=== */
-.section-collection{
-    margin-bottom: 80px;
-}
 .collection-title {
     font-weight: 500;
     font-size: 32px;
@@ -28,7 +25,7 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: #fcf9f9;
-}
+    }
 .collection-price {
     font-weight: 400;
     font-size: 14px;
@@ -40,46 +37,42 @@
     margin-bottom: 18px;
     border-radius: 4px;
 }
-.collection-wrap { 
+.collection-wrap {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
     gap: 8px;
-    height: 36px; 
+    height: 36px;
 }
-.ornament-collection {
-    position: absolute;
-    z-index: -1;
+
+.collection-background-img {
     background-repeat: no-repeat;
-    background-size: 199px 177px;
-    background-position: top 297px left -127px;
-    background-image: url(/img/elements-gold.png);
+    background-size: 72px 117px;
+    background-position: 0 12%;
+    background-image: url(/img/collection-mobile-backgroung-img.png);
 }
 
-
-@media screen and (min-width: 320px) and (max-width: 375px) {
-    img {
-      max-width: 100%;
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .collection-background-img {
+        background-image: url(/img/collection-mobile-backgroung-img@2x.png);
     }
-  }
+}
 
+.section-collection {
+    margin-bottom: 80px;
+}
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
-    .ornament-collection {
+    .ornament {
         background-image: url(/img/elements-gold@2x.png);
     }
-   
-
 }
-@media screen and (min-width: 768px){
-    .section-collection{
-        margin-bottom: 100px;
-    }
+@media screen and (min-width: 768px) {
     .collection-title {
         font-size: 44px;
         line-height: 1.45;
     }
-    .collection-wrap{
+    .collection-wrap {
         width: 342px;
         height: 46px;
         white-space: nowrap;
@@ -90,49 +83,87 @@
         font-size: 18px;
     }
     .collection-list {
-        flex-direction: row;
+        display: flex;
         flex-wrap: wrap;
-        align-items: center;
+        flex-direction: row;
         justify-content: center;
-    }
-   
-    .collection-price {
-        font-size: 18px;
+        align-items: center;
+
     }
     .collection-list-item {
         flex-basis: calc((100% - 20px) / 2);
+
     }
-    .ornament-collection {
+    .ornament {
         background-size: 338px 300px;
-        background-position: top 185px left -225px; 
+        background-position: top 185px left -218px;
+    }
+    .collection-price {
+        font-size: 18px;
+    }
+    .section-collection {
+        margin-bottom: 100px;
+    }
+    .collection-background-img {
+        background-repeat: no-repeat;
+        background-size: 114px 300px;
+        background-position: 0 16%;
+        background-image: url(/img/collection-tablet-backgroung-img.png);
+    }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .collection-background-img {
+        background-image: url(/img/collection-tablet-backgroung-img@2x.png);
     }
 }
 
 
-
-@media screen and (min-width: 1280px){
-    .section-collection{
+@media screen and (min-width: 1280px) {
+    .section-collection {
         margin-bottom: 150px;
     }
     .collection-wrap {
         overflow: visible;
-        }
+    }
     .collection-list {
-            justify-content: space-between;
-            row-gap: 40px;
-            column-gap: 20px;
-        }
+        justify-content: space-between;
+        flex-basis: calc((100% - 40)/3);
+        row-gap: 40px;
+        column-gap: 20px;
+    }
     .collection-list-item {
-            flex: 1;
-            flex-basis: calc((100% - 40)/3);
-        }
-    .ornament-collection {
-        background-position: top 190px left -170px; 
+        flex: 1;
+        flex-basis: calc((100% - 40)/3);
+    }
+
+    .collection-background-img {
+         background-repeat: no-repeat;
+         background-size: 169px 300px;
+         background-position: 0 26%;
+         background-image: url(/img/collection-desktop-backgroung-img.png);
+         }
+}
+
+@media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+    .collection-background-img {
+        background-image: url(/img/collection-desktop-backgroung-img@2x.png);
     }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1440px) {
+    .collection-background-img {
+         background-repeat: no-repeat;
+         background-size: 169px 300px;
+         background-position: 0 27%;
+         background-image: url(/img/collection-desktop-1440px-backgroung-img.png);
+         }
+}
 
+@media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+    .collection-background-img {
+        background-image: url(/img/collection-desktop-1440px-backgroung-img@2x.png);
+    }
 }
 
 
