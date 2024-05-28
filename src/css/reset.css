@@ -1,4 +1,8 @@
 /* Reset styles */
+html {
+  scroll-behavior: smooth;
+}
+
 h1,
 h2,
 h3,
@@ -8,7 +12,6 @@ h6,
 p {
   margin: 0;
 }
-
 
 ul {
   margin: 0;
@@ -27,11 +30,10 @@ button {
 
 img {
   display: block;
-  
 }
 
 body {
-  font-family: "Manrope", sans-serif;
+  font-family: 'Manrope', sans-serif;
   color: rgba(252, 249, 249, 0.4);
   background: #1c2225;
 }
@@ -50,9 +52,8 @@ body {
 @media screen and (min-width: 320px) and (max-width: 375px) {
   img {
     max-width: 100%;
-  } 
+  }
 }
-
 
 /* tablet-container */
 @media screen and (min-width: 768px) {

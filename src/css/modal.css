@@ -12,10 +12,11 @@
 
 .modal-windows.is-open {
   transform: translateX(0%);
+  backdrop-filter: blur(4px);
 }
 
 .modal-windows-menu {
-  height: 812px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   min-width: 274px;
@@ -43,7 +44,7 @@
   background-color: transparent;
 }
 
-.modal-window-icon-svg{
+.modal-window-icon-svg {
   stroke: #1c2225;
 }
 
@@ -88,10 +89,9 @@
   .modal-windows-menu {
     background-image: url('/img/Tablet-images.png');
     max-width: 380px;
-    height: 1024px;
   }
 
-  .modal-windows-btn{
+  .modal-windows-btn {
     width: 44px;
     height: 44px;
   }
@@ -122,7 +122,7 @@
   }
 }
 
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 1280px) {
   .modal-windows-menu {
     display: none;
   }
