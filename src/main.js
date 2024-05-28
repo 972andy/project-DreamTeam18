@@ -1,1 +1,1 @@
-import("./js/menu")
+import("./js/menu.js")
