@@ -1,25 +1,16 @@
 /* ===Footer-Styles=== */
-.page-footer{
-    width: 1280px;
-    background-image: url(../img/footer-background-desktop-img.png);
-    background-repeat: no-repeat;
-    background-position: right;
+.page-footer {
+    border-top: 1px solid rgba(252, 249, 249, 0.1);
+    padding-top: 40px;
 }
-
-@media screen and (min-resolution: 2dppx) {
-    .page-footer {
-        background-image: url(../img/footer-background-desktop-img@2x.png);
-    }
-}
-
 
 .page-footer-list {
     display: flex;
-    /* flex-wrap: wrap;
-    justify-content: start; */
-    gap: 25px;
-    /* column-gap: 40px; */
-    margin-bottom: 117px;
+    flex-wrap: wrap;
+    justify-content: start;
+    row-gap: 25px;
+    column-gap: 30px;
+    margin-bottom: 40px;
 
 }
 
@@ -39,44 +30,114 @@
     line-height: 1.23;
     letter-spacing: -0.03em;
     color: #fcf9f9;
-    width: 754px;
-    margin-bottom: 40px;
+    padding-bottom: 280px;
 }
 
-.yellow-text-footer {
+.yellow-text-footter {
     color: #ecd979;
 }
 
-@media screen and (min-width: 768px){
-    .page-footer{
-        width: 768px;
-        background-image: url(../img/footer-background-tablet-img.png);
-        background-repeat: no-repeat;
-        background-position: right;
+.footer-background-img {
+
+    background-image: url(/img/footer-background-mobile-img.png);
+    background-repeat: no-repeat;
+    background-size: 375px 200px;
+    background-position: 100% 100%;
+
+}
+
+@media screen and (max-width: 767px) and (min-resolution: 192dpi) {
+    .footer-background-img {
+        background-image: url(/img/footer-background-mobile-img@2x.png);
     }
 }
 
-/* @media screen and (min-resolution: 2dppx){
-    .page-footer{
-        background-image: url(../img/footer-background-tablet-img@2x.png);
-    }
-} */
-
-
-    .page-footer-text{
-        width: 521px;
-        font-weight: 400;
-            font-size: 54px;
-            line-height: 1.18519;
-            letter-spacing: -0.03em
+@media screen and (min-width: 768px) {
+    .page-footer-list {
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+        margin-bottom: 70px;
     }
 
-@media screen and (min-width: 380px){
-    .page-footer{
-        width: 380px;
-        background-image: url(../img/footer-background-mobile-img.png);
+    .page-footer-list-item {
+        width: fit-content;
+        display: inline-flex;
+        margin-right: 25px;
+
+    }
+
+    #item2 {
+        order: 3;
+        /* Переміщуємо на третє місце */
+    }
+
+    #item3 {
+        order: 2;
+        /* Переміщуємо на друге місце */
+    }
+
+    #item4 {
+        order: 4;
+    }
+
+    .page-footer-text {
+        width: 461px;
+        font-size: 54px;
+        line-height: 1.18;
+        padding-bottom: 40px;
+    }
+
+    .footer-background-img {
+
+        background-image: url(/img/footer-background-tablet-img.png);
         background-repeat: no-repeat;
-        background-position: bottom;
+        background-size: 174px 370px;
+        background-position: 100% 100%;
     }
-    
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .footer-background-img {
+        background-image: url(/img/footer-background-tablet-img@2x.png);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .page-footer-list {
+        margin-bottom: 117px;
+    }
+
+    .page-footer-text {
+        width: 754px;
+        font-size: 64px;
+        line-height: 1.15;
+    }
+
+    .footer-background-img {
+
+        background-image: url(/img/footer-background-desktop-img.png);
+        background-repeat: no-repeat;
+        background-size: 336px 363px;
+        background-position: 100% 100%;
+    }
+}
+
+@media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+    .footer-background-img {
+        background-image: url(/img/footer-background-desktop-img@2x.png);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .footer-background-img {
+        background-size: 496px 363px;
+        background-image: url(/img/footer-background-desktop-1440px-img.png);
+    }
+}
+
+@media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+    .footer-background-img {
+        background-image: url(/img/footer-background-desktop-1440px-img@2x.png);
+    }
 }
