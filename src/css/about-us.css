@@ -35,7 +35,8 @@
 }
 
 .about-us {
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .background-img-about-us-section {
@@ -70,7 +71,8 @@
   }
 
   .about-us {
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .background-img-about-us-section {
@@ -94,7 +96,8 @@
   }
 
   .about-us {
-    padding-bottom: 150px;
+    padding-top: 75px;
+    padding-bottom: 75px;
   }
 
   .background-img-about-us-section {

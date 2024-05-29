@@ -1,4 +1,7 @@
 /* Початок хедера */
+.page-header{
+  padding-bottom: 42px;
+}
 .main-social-icon:focus {
   border: 1px solid #ecd979;
   background-color: transparent;
@@ -22,7 +25,6 @@
 .main-nav {
   background-color: transparent;
   padding-top: 20px;
-  margin-bottom: 84px;
 }
 .main-logo {
   margin-right: 87px;
@@ -55,12 +57,15 @@
   flex-direction: row;
   gap: 8px;
   background: rgba(252, 249, 249, 0.1);
+  
 
   border: 1px solid rgba(252, 249, 249, 0.1);
   border-radius: 15px;
   padding: 8px;
   width: 44px;
   height: 44px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 .hed-icon-social {
   fill: #fcf9f9;
@@ -86,6 +91,9 @@
 /* кінець хедера */
 /* Початок хедера tablet 768px */
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+  .page-header {
+      padding-bottom: 50px;
+    }
   .header-navigation-lits {
     display: none;
   }
@@ -94,7 +102,6 @@
   }
   .main-nav {
     padding-top: 20px;
-    margin-bottom: 100px;
   }
   .main-logo {
     margin-right: 440px;
@@ -104,6 +111,10 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  .header-nav{
+    margin-right: 229px;
+    align-self: center;
+  }
   .heder-button-menu {
     display: none;
   }
@@ -113,7 +124,6 @@
   .main-nav {
     justify-content: space-between;
     padding-top: 20px;
-    margin-bottom: 100px;
   }
   .header-navigation-lits {
     display: flex;
@@ -121,7 +131,7 @@
     justify-content: center;
     flex-direction: row;
     gap: 25px;
-    margin-right: 229px;
+    
   }
   .header-nav-item {
     font-weight: 400;
@@ -129,6 +139,12 @@
     line-height: 129%;
     text-transform: uppercase;
     color: #fcf9f9;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .header-nav-list-link {
+    padding-top: 47px;
+    padding-bottom: 47px;
+    
   }
   .fone-nuber {
     display: flex;
@@ -139,6 +155,7 @@
     margin-right: 20px;
     width: 193px;
     height: 48px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .address-link {
     display: flex;
@@ -154,3 +171,4 @@
     margin-right: 0;
   }
 }
+

@@ -1,6 +1,7 @@
 /* ===Testimonials-Section-Styles=== */
 .testimonials-container {
-  margin-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .testimonials-title {
   font-weight: 500;
@@ -43,7 +44,8 @@
 }
 @media screen and (min-width: 768px) {
   .testimonials-container {
-    margin-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   .testimonials-title {
     font-size: 44px;
@@ -67,7 +69,8 @@
 }
 @media screen and (min-width: 1280px) {
   .testimonials-container {
-    margin-bottom: 150px;
+    padding-top: 75px;
+    padding-bottom: 75px;
   }
   .testimonials-natalia {
     display: flex;

@@ -60,7 +60,8 @@
 }
 
 .section-collection {
-    margin-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 @media screen and (max-width: 767px) and (min-resolution: 192dpi) {
     .ornament {
@@ -68,6 +69,10 @@
     }
 }
 @media screen and (min-width: 768px) {
+    .section-collection {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
     .collection-title {
         font-size: 44px;
         line-height: 1.45;
@@ -101,9 +106,7 @@
     .collection-price {
         font-size: 18px;
     }
-    .section-collection {
-        margin-bottom: 100px;
-    }
+    
     .collection-background-img {
         background-repeat: no-repeat;
         background-size: 114px 300px;
@@ -121,7 +124,8 @@
 
 @media screen and (min-width: 1280px) {
     .section-collection {
-        margin-bottom: 150px;
+        padding-top: 75px;
+        padding-bottom: 75px;
     }
     .collection-wrap {
         overflow: visible;

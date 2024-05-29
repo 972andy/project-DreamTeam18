@@ -74,7 +74,6 @@
   text-transform: uppercase;
   color: #fcf9f9;
   margin: 0 auto;
-  margin-bottom: 80px;
 }
 
 .your-order-btn:hover,
@@ -84,6 +83,10 @@
 
 .your-order-img {
   display: none;
+}
+.your-order-container {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
@@ -122,11 +125,12 @@
   .your-order-img {
     display: block;
     border-radius: 4px;
-    margin-bottom: 179px;
   }
 
   .your-order-container {
     position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .ornament {
@@ -164,7 +168,7 @@
   }
 
   .your-order-btn {
-    margin-bottom: 150px;
+    margin-bottom: 0;
   }
 
   .your-order-img {
@@ -177,6 +181,11 @@
   .page-your-order {
     display: flex;
     flex-direction: row-reverse;
+  }
+
+  .your-order-container {
+    padding-top: 75px;
+      padding-bottom: 75px;
   }
 
   .ornament {
