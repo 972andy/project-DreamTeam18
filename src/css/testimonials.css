@@ -43,6 +43,16 @@
 .testimonials-natalia {
   display: none;
 }
+.scroll {
+  position: fixed;
+  right: 25px;
+  bottom: 20px;
+  fill: #ffffff;
+}
+.scroll:focus,
+.scroll:hover {
+  fill: #ecd979;
+}
 @media screen and (min-width: 768px) {
   .testimonials-container {
     padding-top: 50px;
