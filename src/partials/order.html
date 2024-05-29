@@ -1,7 +1,7 @@
 <!-- ===Vyshyvanka-Vibes-Order-Section=== -->
-<section class="container your-order-container">
+<section class="your-order-container">
   <div class="your-order-background-image"></div>
-  <div class="page-your-order">
+  <div class="container page-your-order">
     <div class="your-order-title-with-form">
       <h2 class="your-order-title" id="order">
         <span class="your-order-title-part">Your order</span> is our priority:
@@ -9,6 +9,7 @@
       </h2>
       <form class="form-your-order">
         <input
+          aria-label="User name field"
           class="your-order-field"
           name="user-name"
           id="user-name"
@@ -18,14 +19,17 @@
           required
         />
         <input
+          aria-label="Email field"
           class="your-order-field"
           name="user-email"
           id="user-email"
+          pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
           type="email"
           placeholder="Enter your email"
           required
         />
         <textarea
+          aria-label="comment field"
           class="your-order-field your-order-textarea"
           name="user-comment"
           id="user-comment"

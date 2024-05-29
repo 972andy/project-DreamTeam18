@@ -31,6 +31,7 @@
   justify-content: flex-start;
   flex-direction: column;
   border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 4px;
   position: relative;
   padding: 54px 22px 18px;
 }
